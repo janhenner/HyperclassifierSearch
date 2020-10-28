@@ -1,7 +1,7 @@
 # HyperclassifierSearch
 
 ## General info
-HyperclassifierTuning allows to train multiple classifiers/pipelines in Python with GridSearchCV or RandomizedSearchCV.
+HyperclassifierSearch allows to train multiple classifiers/pipelines in Python with GridSearchCV or RandomizedSearchCV.
 
 ## Installation
 `pip install HyperclassifierSearch`
