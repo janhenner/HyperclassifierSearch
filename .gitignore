@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# project-specific
+HyperclassifierSearch_development.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
