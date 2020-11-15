@@ -39,7 +39,7 @@ class HyperclassifierSearch:
     # run search
     X_train, X_test, y_train, y_test = train_test_split(X, y)
     search = HyperclassifierSearch(models, params)
-    best_model = search.train_model(X, y, cv=2, iid=False)
+    best_model = search.train_model(X_train, y_train, cv=2, iid=False)
     search.evaluate_model()
     """
     def __init__(self, models, params):
