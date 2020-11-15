@@ -99,7 +99,6 @@ class HyperclassifierSearch:
         """
         results = []
         for key, result in self.grid_results.items():
-            print('results round for:', key)
             # get rid of column which is estimator specific, i.e. use df for multiple estimators
             result = pd.DataFrame(result.cv_results_).filter(regex='^(?!.*param_).*')
             if show_timing_info==False: # skip timing info
